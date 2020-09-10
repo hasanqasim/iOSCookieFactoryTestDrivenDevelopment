@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6277EDA2509741F00A2C7F5 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6277ED92509741F00A2C7F5 /* Cookie.swift */; };
+		A6277EDB2509748900A2C7F5 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6277ED92509741F00A2C7F5 /* Cookie.swift */; };
+		A6277EDD2509772A00A2C7F5 /* CookieControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6277EDC2509772A00A2C7F5 /* CookieControllerTests.swift */; };
+		A6277EDF25097A8B00A2C7F5 /* CookieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6277EDE25097A8B00A2C7F5 /* CookieController.swift */; };
+		A6277EE025097A8F00A2C7F5 /* CookieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6277EDE25097A8B00A2C7F5 /* CookieController.swift */; };
 		A64BC6222508BC9A00F3096C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BC6212508BC9A00F3096C /* AppDelegate.swift */; };
 		A64BC6242508BC9A00F3096C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BC6232508BC9A00F3096C /* SceneDelegate.swift */; };
 		A64BC6262508BC9A00F3096C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BC6252508BC9A00F3096C /* ViewController.swift */; };
 		A64BC6292508BC9A00F3096C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64BC6272508BC9A00F3096C /* Main.storyboard */; };
 		A64BC62B2508BCA000F3096C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64BC62A2508BCA000F3096C /* Assets.xcassets */; };
 		A64BC62E2508BCA000F3096C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64BC62C2508BCA000F3096C /* LaunchScreen.storyboard */; };
-		A64BC6392508BCA100F3096C /* CookieFactoryWithUnitTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BC6382508BCA100F3096C /* CookieFactoryWithUnitTestsTests.swift */; };
+		A64BC6442509712300F3096C /* CookieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64BC6432509712300F3096C /* CookieTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6277ED92509741F00A2C7F5 /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		A6277EDC2509772A00A2C7F5 /* CookieControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieControllerTests.swift; sourceTree = "<group>"; };
+		A6277EDE25097A8B00A2C7F5 /* CookieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieController.swift; sourceTree = "<group>"; };
 		A64BC61E2508BC9A00F3096C /* CookieFactoryWithUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieFactoryWithUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64BC6212508BC9A00F3096C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64BC6232508BC9A00F3096C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,8 +44,8 @@
 		A64BC62D2508BCA000F3096C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64BC62F2508BCA000F3096C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A64BC6342508BCA100F3096C /* CookieFactoryWithUnitTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieFactoryWithUnitTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A64BC6382508BCA100F3096C /* CookieFactoryWithUnitTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieFactoryWithUnitTestsTests.swift; sourceTree = "<group>"; };
 		A64BC63A2508BCA100F3096C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64BC6432509712300F3096C /* CookieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6277ED8250973E300A2C7F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6277ED92509741F00A2C7F5 /* Cookie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A64BC6152508BC9900F3096C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +95,7 @@
 		A64BC6202508BC9A00F3096C /* CookieFactoryWithUnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				A6277ED8250973E300A2C7F5 /* Model */,
 				A64BC6212508BC9A00F3096C /* AppDelegate.swift */,
 				A64BC6232508BC9A00F3096C /* SceneDelegate.swift */,
 				A64BC6252508BC9A00F3096C /* ViewController.swift */,
@@ -86,6 +103,7 @@
 				A64BC62A2508BCA000F3096C /* Assets.xcassets */,
 				A64BC62C2508BCA000F3096C /* LaunchScreen.storyboard */,
 				A64BC62F2508BCA000F3096C /* Info.plist */,
+				A6277EDE25097A8B00A2C7F5 /* CookieController.swift */,
 			);
 			path = CookieFactoryWithUnitTests;
 			sourceTree = "<group>";
@@ -93,7 +111,8 @@
 		A64BC6372508BCA100F3096C /* CookieFactoryWithUnitTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A64BC6382508BCA100F3096C /* CookieFactoryWithUnitTestsTests.swift */,
+				A64BC6432509712300F3096C /* CookieTests.swift */,
+				A6277EDC2509772A00A2C7F5 /* CookieControllerTests.swift */,
 				A64BC63A2508BCA100F3096C /* Info.plist */,
 			);
 			path = CookieFactoryWithUnitTestsTests;
@@ -152,6 +171,7 @@
 					};
 					A64BC6332508BCA100F3096C = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = A64BC61D2508BC9A00F3096C;
 					};
 				};
@@ -201,8 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64BC6262508BC9A00F3096C /* ViewController.swift in Sources */,
+				A6277EDA2509741F00A2C7F5 /* Cookie.swift in Sources */,
 				A64BC6222508BC9A00F3096C /* AppDelegate.swift in Sources */,
 				A64BC6242508BC9A00F3096C /* SceneDelegate.swift in Sources */,
+				A6277EDF25097A8B00A2C7F5 /* CookieController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A64BC6392508BCA100F3096C /* CookieFactoryWithUnitTestsTests.swift in Sources */,
+				A64BC6442509712300F3096C /* CookieTests.swift in Sources */,
+				A6277EDB2509748900A2C7F5 /* Cookie.swift in Sources */,
+				A6277EDD2509772A00A2C7F5 /* CookieControllerTests.swift in Sources */,
+				A6277EE025097A8F00A2C7F5 /* CookieController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +424,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B9H3895JF;
 				INFOPLIST_FILE = CookieFactoryWithUnitTestsTests/Info.plist;
@@ -410,6 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.monash.CookieFactoryWithUnitTestsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CookieFactoryWithUnitTests.app/CookieFactoryWithUnitTests";
@@ -421,6 +448,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B9H3895JF;
 				INFOPLIST_FILE = CookieFactoryWithUnitTestsTests/Info.plist;
